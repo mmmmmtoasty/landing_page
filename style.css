@@ -1,0 +1,32 @@
+body {
+    /*create the same amount of space on left and right of page without losing the background color*/
+    
+}
+
+.section-one {
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.header{
+    display:flex;
+}
+
+img {
+    width:250px;
+    height:auto;
+}
+
+ul {
+    display:flex;
+}
+
+li {
+    list-style-type: none;
+    gap:100px;
+}
+
+
+.section-three{
+    background-color: #e5e7eb;
+}
