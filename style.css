@@ -1,3 +1,5 @@
+
+
 body {
     /*create the same amount of space on left and right of page without losing the background color*/
     
@@ -6,10 +8,13 @@ body {
 .section-one {
     background-color: #1f2937;
     color:#f9faf8;
+    padding-left:50px;
+    padding-right:50px;/*add this padding to every section to make spacing consistent*/
 }
 
 .header{
     display:flex;
+    justify-content: space-between;
 }
 
 img {
@@ -19,14 +24,39 @@ img {
 
 ul {
     display:flex;
+    gap:15px;
 }
 
 li {
     list-style-type: none;
-    gap:100px;
+}
+
+.section-two {
+    padding-left:50px;
+    padding-right:50px;
+    display:flex;
+    flex-direction:column;
+}
+.section-two-images-text {
+    display:flex;
 }
 
 
 .section-three{
     background-color: #e5e7eb;
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.section-four {
+    padding-left:50px;
+    padding-right:50px;
+}
+
+.footer {
+    display:flex;
+    background-color: #1F2937;
+    color:#e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
