@@ -51,6 +51,10 @@ li {
 button {
     background-color:#3882f6;
     color:#f9faf8;
+    padding:10px 25px;
+    border-radius:8px;
+    display:inline-block;
+    border:none;
 }
 
 /**********************************divider between sections **************************/
