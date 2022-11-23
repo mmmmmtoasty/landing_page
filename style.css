@@ -17,6 +17,12 @@ body {
     justify-content: space-between;
 }
 
+.header-logo{
+    /*will style header logo*/
+    font-size: 24px;
+    font-weight: bold;
+}
+
 img {
     width:250px;
     height:auto;
@@ -31,6 +37,23 @@ li {
     list-style-type: none;
 }
 
+.section-one-part-two {
+    display:flex;
+    padding-bottom:25px;
+    gap:45px;
+}
+
+.awesome-website {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+button {
+    background-color:#3882f6;
+    color:#f9faf8;
+}
+
+/**********************************divider between sections **************************/
 .section-two {
     padding-left:50px;
     padding-right:50px;
