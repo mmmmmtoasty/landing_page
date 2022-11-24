@@ -4,7 +4,9 @@
     background-color: #1f2937;
     color:#f9faf8;
     padding-left:50px;
-    padding-right:50px;/*add this padding to every section to make spacing consistent*/
+    padding-right:50px; /*add this padding to every section to make spacing consistent*/
+    display:flex; /*so that section one flexes with the rest of the page when resized.*/
+    flex-direction:column;
 }
 
 .header{
@@ -36,6 +38,11 @@ li {
     display:flex;
     padding-bottom:25px;
     gap:45px;
+}
+
+.container {
+    display:flex;
+    flex-direction:column;
 }
 
 .awesome-website {
@@ -81,6 +88,8 @@ button {
     background-color: #e5e7eb;
     padding-left:50px;
     padding-right:50px;
+    display:flex;
+    flex-direction:column;
 }
 
 .quote, .citation {
@@ -94,10 +103,34 @@ button {
     font-weight:bolder;
 }
 
+/******************end section************/
+
 .section-four {
-    padding-left:50px;
-    padding-right:50px;
+   /* padding-left:50px;
+    padding-right:50px;*/
+    display:flex;
+    flex-grow:0; /*I don't like the way the box looks when it stretches. I want the box to move, not stretch*/
 }
+
+.call-to-action-box {
+    background-color:#3882f6;
+    border-radius:12px;
+    color:#f9faf8;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    margin:80px;
+    width:80%;
+}
+.call-to-action-button {
+    border:2px solid #f9faf8;
+    padding: 2px;
+    height:40%;
+    width:15%;
+    align-self:center;
+}
+
+/****************************break between sections********************/
 
 .footer {
     display:flex;
