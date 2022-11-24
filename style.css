@@ -43,6 +43,7 @@ li {
 .container {
     display:flex;
     flex-direction:column;
+    width:80%;
 }
 
 .awesome-website {
@@ -57,6 +58,7 @@ button {
     border-radius:8px;
     display:inline-block;
     border:none;
+    width: 20%;
 }
 
 /**********************************divider between sections **************************/
