@@ -1,10 +1,5 @@
 
 
-body {
-    /*create the same amount of space on left and right of page without losing the background color*/
-    
-}
-
 .section-one {
     background-color: #1f2937;
     color:#f9faf8;
@@ -63,16 +58,40 @@ button {
     padding-right:50px;
     display:flex;
     flex-direction:column;
+    /*style section title*/
+    font-size:36px;
+    align-items:center;
+    font-weight: bolder;
+    color:#1f2937;
 }
 .section-two-images-text {
     display:flex;
+    font-size:14px;
+    gap:20px;
+    text-align: center;
 }
 
+.rounded-image-corners {
+    border-radius:12px;
+}
+
+/**************************end of section*************************/
 
 .section-three{
     background-color: #e5e7eb;
     padding-left:50px;
     padding-right:50px;
+}
+
+.quote, .citation {
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+}
+
+.citation {
+    text-align: end;
+    font-weight:bolder;
 }
 
 .section-four {
